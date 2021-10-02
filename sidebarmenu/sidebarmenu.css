@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.menu{
+background-color: skyblue;
+padding: 10px 6rem;  
+display: flex;
+align-items: center;
+justify-content: space-between;  
+transition: 0.3s;
+}
+
+.menu .left h1{
+color: black;
+letter-spacing: 5px;
+font-size: 46px;    
+}
+
+.menu .right i{
+color: black;
+font-size: 30px;   
+cursor: pointer; 
+}
+
+.sidebar{
+background-color: #111;    
+height: 100%;
+width: 0;
+position: fixed;
+top: 0;
+left: 0;
+overflow-x: hidden;
+z-index: 1;
+transition: 0.3s;
+padding-top: 71.5px;
+}
+
+.sidebar a{
+text-decoration: none;
+color: #fff;  
+display: block;
+padding: 20px 20px;
+font-size: 20px;  
+border-top: 1px solid #fff;
+transition: 0.4s;
+}
+.sidebar a:hover{
+background-color: rgba(255, 255, 255, 0.582);   
+border-top: 1px solid rgba(255, 255, 255, 0.582);
+}
+.sidebar a:nth-child(4){
+    border-bottom: 1px solid #fff;    
+}
+
+.togglebar{
+width: 260px;    
+}
+.togglemenu{
+margin-left: 248px;    
+}
+
